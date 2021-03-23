@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <!--google font added matlab ki imbede hai-->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <!--google fonts-->
+</head>
+<body>
+    <!--nav bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sanchit</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="about.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="contact.html">Contact</a>
+          </li>
+          
+        </ul>
+<!--search hata diya hai-->
+      </div>
+    </div>
+  </nav>
+<!--nav bar-->
+<!--about section start-->
+<section class="main_heading my-5">
+    <div class="text-center"><!--text-center is bootstrap 5.0 alpha class -->
+      <h1 class="display-4">ABOUT US</h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+  
+  <div class="container">
+    <div class="row my-5">
+       <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+       <figure>
+         <img src="images/my.png" alt="about" class="img-fluid about_img">
+         <!--img-fluid IS ALSO A CLASS OF BOOTSTARP 4/5.0 ALPHA-->
+       </figure>
+       </div>
+  
+  
+       <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start flex-column">
+         <h1> My journey</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing el
+         it. Aliquid facere
+          praesentium, ad odit eligendi dolori
+         bus, ex, voluptates deserunt deleniti architect
+         o id. Quo aute
+         m doloremque corrupti fu
+         git ex expedita saepe numquam!
+       </p>
+       <button type="button" class="btn btn-outline-info" data-toggle="tooltip" data-placement="right" title="maut he age mat ja">read more</button>
+      </div>
+  
+      </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#fat">@fat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mdo">@mdo</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li><a class="dropdown-item" href="#one">one</a></li>
+              <li><a class="dropdown-item" href="#two">two</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#three">three</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  </section>
+<footer class="bg-secondary text-center text-white">
+    <p>@copyright AOC</p>
+    </footer>
